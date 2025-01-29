@@ -2,6 +2,8 @@
 
 ## 簡介
 這個專案「奔跑的長條圖」透過中選會選舉及公投資料庫的 `113全國投開票所完成時間.xlsx`、練習專案四建立好的 `taiwan_presidential_election_2024.db` 以及練習專案五建立好的 `covid_19.db` 資料製作出了奔跑的長條圖。我們使用了 `pandas` 整合連結 Excel 活頁簿試算表與 `SQLite `資料庫資料表的內容，利用 `plotly.express` 進行概念驗證並以 `raceplotly` 做出成品。
+- [Covid 19確診人數](https://ryanlei309.github.io/bar_chart_race/bar_chart_race_confirmed)
+- [選取人數長條圖](https://ryanlei309.github.io/bar_chart_race/bar_chart_race_votes)
 
 ## 如何重現
 - 安裝 [Miniconda](https://docs.anaconda.com/miniconda)
